@@ -26,3 +26,12 @@ const FEW = "typeDDstyle";
 if ( FEW === FEW) { 
     console.log(FEW.length);
 }
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+firstLetterOfLastName = lastName[0];
+console.log(firstLetterOfLastName);
+let firstNumber = [1, 2, 3, 4, 5, 6, 7, 8];
+console.log(firstNumber[7],[0],[1]);
+const LAST = "Mullt";
+const lastLetterOfLastName = LAST[LAST.length - 1];
+console.log(lastLetterOfLastName);
