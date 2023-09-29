@@ -16,3 +16,10 @@ const myStr = "Hello, our my name is " + myFstring + " how are you?";
     var myString;
     myString = "Get my name list,\n\t\\ List:\rSawa\rDawa\rMawa";
     console.log(myString); 
+
+const someAdjective = "nice ";
+let someMyjective = "Learing to code";
+
+someMyjective += someAdjective;
+
+console.log(someMyjective + someAdjective);
