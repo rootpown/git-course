@@ -9,3 +9,10 @@ let myGr = "This is the first sentence. ";
 myGr += " This is the second sentence.";
 
 console.log(myGr);
+
+const myFstring = "Code";
+const myStr = "Hello, our my name is " + myFstring + " how are you?";
+    console.log(myStr);
+    var myString;
+    myString = "Get my name list,\n\t\\ List:\rSawa\rDawa\rMawa";
+    console.log(myString); 
