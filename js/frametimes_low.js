@@ -7,9 +7,7 @@
 
 let myGr = "This is the first sentence. ";
 myGr += " This is the second sentence.";
-
 console.log(myGr);
-
 const myFstring = "Code";
 const myStr = "Hello, our my name is " + myFstring + " how are you?";
     console.log(myStr);
@@ -19,7 +17,12 @@ const myStr = "Hello, our my name is " + myFstring + " how are you?";
 
 const someAdjective = "nice ";
 let someMyjective = "Learing to code";
-
+    
 someMyjective += someAdjective;
-
 console.log(someMyjective + someAdjective);
+        console.log(someAdjective.length);
+//str length
+const FEW = "typeDDstyle";
+if ( FEW === FEW) { 
+    console.log(FEW.length);
+}
