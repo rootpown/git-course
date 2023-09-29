@@ -51,17 +51,20 @@ const arr = [
     [7, 8, 9],
     [[10, 11, 12], 13, 14]
   ];
-  
+
   const llg = [
     [1, 2, 3,],
     [2, 2, 2],
     [3, 3, 3],
     [[4, 5, 1], [2, 1, 1]]
   ];
-  var $f1 = llg[3][0][0];
-
+  var $f1 = llg[3][1][0];
 console.log($f1);
   const subarray = arr[3];
   const nestedSubarray = arr[3];
   const element = arr[3][0][1];
   console.log(nestedSubarray);
+////
+const FEWFEW = [1,2,3,4,5];
+const deleteFEW = FEWFEW.pop();
+console.log(FEWFEW[3]);
