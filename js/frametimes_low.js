@@ -66,5 +66,6 @@ console.log($f1);
   console.log(nestedSubarray);
 ////
 const FEWFEW = [1,2,3,4,5];
+const FEWpush = FEWFEW.push([6,7,8]);
 const deleteFEW = FEWFEW.pop();
-console.log(FEWFEW[3]);
+console.log(FEWFEW[7]);
