@@ -3,8 +3,6 @@
 // // // var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"
 // // var myInteger = 1 + "1";
 // // console.log(myInteger);
-
-
 // let myGr = "This is the first sentence. ";
 // myGr += " This is the second sentence.";
 // console.log(myGr);
@@ -14,10 +12,8 @@
 //     var myString;
 //     myString = "Get my name list,\n\t\\ List:\rSawa\rDawa\rMawa";
 //     console.log(myString); 
-
 // const someAdjective = "nice ";
 // let someMyjective = "Learing to code";
-    
 // someMyjective += someAdjective;
 // console.log(someMyjective + someAdjective);
 //         console.log(someAdjective.length);
@@ -73,4 +69,5 @@ function reusableFunction() {
   console.log(FEWFEW + element);
     return
 }
+
 reusableFunction();
