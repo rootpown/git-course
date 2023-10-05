@@ -1,14 +1,11 @@
-function nextInLine(arr, item) {
-    // Only change code below this line
-    arr.push(item);
-    return arr.shift(3);
-    // Only change code above this line
-  }
+function testLogicalAnd(val) {
+  // Only change code below this line
+if ( val > 20 && val > 15 || val < 11 && val < 10) {
+  return "true";
+}
+  return "false";
+}
+console.log(testLogicalAnd(11));
+
+
   
-  // Setup
-  let testArr = [1, 2, 3, 4, 5];
-  
-  // Display code
-  console.log("Before: " + JSON.stringify(testArr));
-  console.log(nextInLine(testArr, 6));
-  console.log("After: " + JSON.stringify(testArr));
