@@ -22,7 +22,7 @@ const FEW = "typeDDstyle";
 if ( FEW === FEW) { 
     console.log(FEW.length);
 }
-let firstLetterOfLastName = "";
+let firstLetterOfLastName = "#";
 const lastName = "Lovelace";
 firstLetterOfLastName = lastName[0];
 console.log(firstLetterOfLastName);
